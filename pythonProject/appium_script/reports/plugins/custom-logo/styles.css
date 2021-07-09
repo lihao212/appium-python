@@ -1,0 +1,9 @@
+.side-nav__brand {
+  background: url('infisense2.png') no-repeat left center !important;
+  margin-left: 10px;
+  height: 65px;
+  background-size:cotain !important;
+}
+.side-nav__brand span{
+	display: none;
+}

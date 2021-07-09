@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-IIF9B8C",
+    "children" : [ {
+      "name" : "37760-MainThread",
+      "children" : [ {
+        "name" : "test_01[test_config0]",
+        "uid" : "cf73c2d25a546c5d",
+        "parentUid" : "7ca8ca0dc64deba0c631d8cda037eaa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625016205209,
+          "stop" : 1625016228281,
+          "duration" : 23072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'tester': 'ui', 'part_caps': {'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}, 'appium_server': {'host': '127.0.0.1', 'port': '4273', 'bootstrap_port': '4274'}}" ]
+      } ],
+      "uid" : "7ca8ca0dc64deba0c631d8cda037eaa1"
+    }, {
+      "name" : "37944-MainThread",
+      "children" : [ {
+        "name" : "test_01[test_config1]",
+        "uid" : "1427ad89641b1c0e",
+        "parentUid" : "59501819c0ef1e3665c6d0b696f35cb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625016205209,
+          "stop" : 1625016228443,
+          "duration" : 23234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'tester': 'ui', 'part_caps': {'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}, 'appium_server': {'host': '127.0.0.1', 'port': '4275', 'bootstrap_port': '4276'}}" ]
+      } ],
+      "uid" : "59501819c0ef1e3665c6d0b696f35cb2"
+    } ],
+    "uid" : "5e518e14ea4242fccf10fc02912e848a"
+  } ]
+}

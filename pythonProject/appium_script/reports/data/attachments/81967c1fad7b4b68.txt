@@ -1,0 +1,14 @@
+[32mINFO    [0m name:appium_loging.py:40 [START] start_server
+[32mINFO    [0m name:appium_loging.py:40 [END] start_server,duration of time: 5.71ms
+[32mINFO    [0m name:appium_loging.py:40 [START] test_server
+[35mDEBUG   [0m name:appium_loging.py:43 4273 启动中...........
+[35mDEBUG   [0m name:appium_loging.py:43 4273 启动成功.........
+[32mINFO    [0m name:appium_loging.py:40 [END] test_server,duration of time: 5108.15ms
+[32mINFO    [0m name:appium_loging.py:40 [START] 初始化参数...
+[1m[31mERROR   [0m name:appium_loging.py:49 Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20210ms.
+
+[32mINFO    [0m name:appium_loging.py:40 [END] __init__,duration of time: 23071.31ms
+[32mINFO    [0m name:appium_loging.py:40 [START] kill_server
+[35mDEBUG   [0m name:appium_loging.py:43 关闭 appium_server....
+[35mDEBUG   [0m name:appium_loging.py:43 已关闭 appium_server!
+[32mINFO    [0m name:appium_loging.py:40 [END] kill_server,duration of time: 10.79ms

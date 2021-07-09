@@ -1,0 +1,13 @@
+[32mINFO    [0m name:appium_loging.py:40 [START] start_server
+[32mINFO    [0m name:appium_loging.py:40 [END] start_server,duration of time: 5.71ms
+[32mINFO    [0m name:appium_loging.py:40 [START] test_server
+[35mDEBUG   [0m name:appium_loging.py:43 4275 启动中...........
+[35mDEBUG   [0m name:appium_loging.py:43 4275 启动成功.........
+[32mINFO    [0m name:appium_loging.py:40 [END] test_server,duration of time: 5108.15ms
+[32mINFO    [0m name:appium_loging.py:40 [START] 初始化参数...
+[31m[1mERROR   [0m name:appium_loging.py:49 ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[32mINFO    [0m name:appium_loging.py:40 [END] __init__,duration of time: 23233.14ms
+[32mINFO    [0m name:appium_loging.py:40 [START] kill_server
+[35mDEBUG   [0m name:appium_loging.py:43 关闭 appium_server....
+[35mDEBUG   [0m name:appium_loging.py:43 已关闭 appium_server!
+[32mINFO    [0m name:appium_loging.py:40 [END] kill_server,duration of time: 11.42ms

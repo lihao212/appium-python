@@ -1,0 +1,25 @@
+-
+  tester:  ui # for android
+  part_caps:
+    platformVersion: "11"
+    deviceName: "M2011K2C"
+    appPackage: "com.infisense.usbCamera_rc"
+    udid: "e3517429"
+  appium_server:
+    host: "127.0.0.1"
+    port: "4273"
+    bootstrap_port: "4274"
+
+-
+  tester:  ui # for android
+  part_caps:
+    platformVersion: "11"
+    deviceName: "M2011K2C"
+    appPackage: "com.infisense.usbCamera_rc"
+    udid: "e3517429"
+  appium_server:
+    host: "127.0.0.1"
+    port: "4275"
+    bootstrap_port: "4276"
+
+

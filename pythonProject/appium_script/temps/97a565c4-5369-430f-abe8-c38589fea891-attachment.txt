@@ -1,0 +1,257 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "11", "appium:deviceName": "PDSM00", "appium:appPackage": "com.infisense.usbCamera_rc", "appium:appActivity": "com.infisense.p2.activity.MainActivity", "appium:automationName": "Uiautomator2", "appium:udid": "", "appium:skipServerInstallation": true, "appium:skipDeviceInitialization": true, "appium:resetKeyboard": false, "appium:unicodeKeyboard": true, "appium:noReset": true}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "11", "deviceName": "PDSM00", "appPackage": "com.infisense.usbCamera_rc", "appActivity": "com.infisense.p2.activity.MainActivity", "automationName": "Uiautomator2", "udid": "", "skipServerInstallation": true, "skipDeviceInitialization": true, "resetKeyboard": false, "unicodeKeyboard": true, "noReset": true}}
+DEBUG    urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1217
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:appium_loging.py:39 [START] process_windows
+INFO     root:appium_loging.py:39 [END] process_windows,duration of time: 0.00ms
+INFO     root:appium_loging.py:39 [START] into_picture
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/iv_goto_gallery\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/81a96c1e-d6b3-4572-b991-b76e268979c9/click {"id": "81a96c1e-d6b3-4572-b991-b76e268979c9"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/81a96c1e-d6b3-4572-b991-b76e268979c9/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:appium_loging.py:39 [END] into_picture,duration of time: 127.47ms
+INFO     root:appium_loging.py:39 [START] get_pic_num
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/selected_album\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/46fa8a29-0b3d-442a-a467-3242ed4dcdcc/click {"id": "46fa8a29-0b3d-442a-a467-3242ed4dcdcc"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/46fa8a29-0b3d-442a-a467-3242ed4dcdcc/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/album_name\" and @text=\"infisense\"]/../android.widget.TextView[@index=\"2\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/f0c6e3f2-5c0b-4e1d-bcf8-ed6b5befebb0/displayed {"id": "f0c6e3f2-5c0b-4e1d-bcf8-ed6b5befebb0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/f0c6e3f2-5c0b-4e1d-bcf8-ed6b5befebb0/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/album_name\" and @text=\"infisense\"]/../android.widget.TextView[@index=\"2\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/8391f02e-871d-4fc4-9d61-96a8082b9845/attribute/name {"name": "name", "id": "8391f02e-871d-4fc4-9d61-96a8082b9845"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/8391f02e-871d-4fc4-9d61-96a8082b9845/attribute/name HTTP/1.1" 200 15
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/album_name\" and @text=\"infisense\"]/../android.widget.TextView[@index=\"2\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/cb8a782a-7c64-4185-b098-c089ef2e9799/click {"id": "cb8a782a-7c64-4185-b098-c089ef2e9799"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/cb8a782a-7c64-4185-b098-c089ef2e9799/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:appium_loging.py:39 pic_number: 879
+INFO     root:appium_loging.py:39 [END] get_pic_num,duration of time: 2451.73ms
+INFO     root:appium_loging.py:39 [START] choose_pic
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/window/rect {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/window/rect HTTP/1.1" 200 50
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"0\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "ba0ee628-4ce6-4664-8daa-cffff794aca7", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/349fe691-b05b-4b7a-9d5f-c301150db05b/text {"id": "349fe691-b05b-4b7a-9d5f-c301150db05b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/349fe691-b05b-4b7a-9d5f-c301150db05b/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"1\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "799760be-cd9f-4290-92fd-f526a1a4d82f", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/0fa948f8-99bc-4529-972d-73e52ae74e1d/text {"id": "0fa948f8-99bc-4529-972d-73e52ae74e1d"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/0fa948f8-99bc-4529-972d-73e52ae74e1d/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"2\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "f54ec232-f805-4426-8a47-c34491f1b34c", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/b7fd5b81-0924-460a-85d8-42dacf03a263/text {"id": "b7fd5b81-0924-460a-85d8-42dacf03a263"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/b7fd5b81-0924-460a-85d8-42dacf03a263/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"3\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "c7e4088f-a8c5-4c91-84bf-d860b1fa1f36", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/44152b03-1ace-41d5-b144-91015bf6814b/text {"id": "44152b03-1ace-41d5-b144-91015bf6814b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/44152b03-1ace-41d5-b144-91015bf6814b/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"4\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "ee2ea304-173f-4039-8949-e307b9c1ee83", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/be4cbc40-1401-476b-8f1f-5ddb819e6a13/text {"id": "be4cbc40-1401-476b-8f1f-5ddb819e6a13"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/be4cbc40-1401-476b-8f1f-5ddb819e6a13/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"5\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "678ac94e-8cde-497a-9da9-4e8f01b9ea46", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/ff33458c-077a-4116-bee5-67abce296ad4/text {"id": "ff33458c-077a-4116-bee5-67abce296ad4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/ff33458c-077a-4116-bee5-67abce296ad4/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"6\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "f1ee27fa-0fc4-43a4-aae7-d70cb27fe79e", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/3fdfe27f-0490-4093-9ff8-1e569283e047/text {"id": "3fdfe27f-0490-4093-9ff8-1e569283e047"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/3fdfe27f-0490-4093-9ff8-1e569283e047/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"7\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "f176861a-9455-4146-9398-ce232fd80bc6", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/5fac73ee-e18b-4786-88cb-c0796bb3b931/text {"id": "5fac73ee-e18b-4786-88cb-c0796bb3b931"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/5fac73ee-e18b-4786-88cb-c0796bb3b931/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"8\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "bc275940-7081-484d-8b91-149cd6da4378", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/bdd39786-636d-41a1-9246-dbc0761f3474/text {"id": "bdd39786-636d-41a1-9246-dbc0761f3474"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/bdd39786-636d-41a1-9246-dbc0761f3474/text HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/recyclerview\"]/android.widget.FrameLayout[@index=\"9\"]/android.view.View"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform {"actions": [{"action": "tap", "options": {"element": "e75cdaaf-74c1-4918-b590-bba394f89969", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/ee7bd30d-5bb3-4e0e-955a-a22ad932d986/text {"id": "ee7bd30d-5bb3-4e0e-955a-a22ad932d986"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/ee7bd30d-5bb3-4e0e-955a-a22ad932d986/text HTTP/1.1" 200 73
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:appium_loging.py:39 [END] choose_pic,duration of time: 19952.09ms
+INFO     root:appium_loging.py:39 [START] pic_de
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/button_apply\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/1a886397-5071-4987-b647-4064259100a1/click {"id": "1a886397-5071-4987-b647-4064259100a1"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/1a886397-5071-4987-b647-4064259100a1/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element {"using": "xpath", "value": "//*[@resource-id=\"com.infisense.usbCamera_rc:id/tv_ok\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/6bc4d023-4d5a-4503-8014-4a9745ed6e28/click {"id": "6bc4d023-4d5a-4503-8014-4a9745ed6e28"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/element/6bc4d023-4d5a-4503-8014-4a9745ed6e28/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts {"implicit": 10000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:appium_loging.py:39 [END] pic_de,duration of time: 908.17ms
+INFO     root:appium_loging.py:39 [START] link_exit
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:4723/wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "DELETE /wd/hub/session/df2064cd-2369-42ca-b61e-0840177171f4 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:appium_loging.py:39 [END] link_exit,duration of time: 445.90ms

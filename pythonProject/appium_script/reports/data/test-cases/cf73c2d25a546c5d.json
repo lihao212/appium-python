@@ -1,0 +1,147 @@
+{
+  "uid" : "cf73c2d25a546c5d",
+  "name" : "test_01[test_config0]",
+  "fullName" : "appium_script.appium_test.TestAppium#test_01",
+  "historyId" : "da43dabce8c3e2dc4372af590d538f59",
+  "time" : {
+    "start" : 1625016205209,
+    "stop" : 1625016228281,
+    "duration" : 23072
+  },
+  "description" : "测试脚本运行报告",
+  "descriptionHtml" : "<p>测试脚本运行报告</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_config",
+    "time" : {
+      "start" : 1625016200092,
+      "stop" : 1625016205207,
+      "duration" : 5115
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "测试脚本运行报告",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试使用",
+      "time" : {
+        "start" : 1625016205210,
+        "stop" : 1625016228281,
+        "duration" : 23071
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "test_config",
+        "value" : "{'tester': 'ui', 'part_caps': {'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}, 'appium_server': {'host': '127.0.0.1', 'port': '4273', 'bootstrap_port': '4274'}}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "81967c1fad7b4b68",
+      "name" : "log",
+      "source" : "81967c1fad7b4b68.txt",
+      "type" : "text/plain",
+      "size" : 1079
+    }, {
+      "uid" : "e8d906b21624cadf",
+      "name" : "stdout",
+      "source" : "e8d906b21624cadf.txt",
+      "type" : "text/plain",
+      "size" : 365
+    }, {
+      "uid" : "64234cc5801c604b",
+      "name" : "stderr",
+      "source" : "64234cc5801c604b.txt",
+      "type" : "text/plain",
+      "size" : 899
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "test_config::0",
+    "time" : {
+      "start" : 1625016228283,
+      "stop" : 1625016228294,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "配置caps"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "测试模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "appium_script"
+  }, {
+    "name" : "suite",
+    "value" : "appium_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppium"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IIF9B8C"
+  }, {
+    "name" : "thread",
+    "value" : "37760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "appium_script.appium_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_config",
+    "value" : "{'tester': 'ui', 'part_caps': {'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}, 'appium_server': {'host': '127.0.0.1', 'port': '4273', 'bootstrap_port': '4274'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf73c2d25a546c5d.json",
+  "parameterValues" : [ "{'tester': 'ui', 'part_caps': {'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}, 'appium_server': {'host': '127.0.0.1', 'port': '4273', 'bootstrap_port': '4274'}}" ]
+}

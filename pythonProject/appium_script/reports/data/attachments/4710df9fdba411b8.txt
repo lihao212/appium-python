@@ -1,0 +1,1 @@
+{'platformName': 'Android', 'appActivity': 'com.infisense.p2.activity.MainActivity', 'automationName': 'Uiautomator2', 'skipServerInstallation': True, 'skipDeviceInitialization': True, 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}

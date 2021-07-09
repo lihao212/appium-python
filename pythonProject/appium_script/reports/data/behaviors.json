@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试模块",
+    "children" : [ {
+      "name" : "配置caps",
+      "children" : [ {
+        "name" : "test_01[test_config1]",
+        "uid" : "1427ad89641b1c0e",
+        "parentUid" : "258bd92f8ba3d7dcbea57b558d908b5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625016205209,
+          "stop" : 1625016228443,
+          "duration" : 23234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'tester': 'ui', 'part_caps': {'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}, 'appium_server': {'host': '127.0.0.1', 'port': '4275', 'bootstrap_port': '4276'}}" ]
+      }, {
+        "name" : "test_01[test_config0]",
+        "uid" : "cf73c2d25a546c5d",
+        "parentUid" : "258bd92f8ba3d7dcbea57b558d908b5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625016205209,
+          "stop" : 1625016228281,
+          "duration" : 23072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'tester': 'ui', 'part_caps': {'platformVersion': '11', 'deviceName': 'M2011K2C', 'appPackage': 'com.infisense.usbCamera_rc', 'udid': 'e3517429'}, 'appium_server': {'host': '127.0.0.1', 'port': '4273', 'bootstrap_port': '4274'}}" ]
+      } ],
+      "uid" : "258bd92f8ba3d7dcbea57b558d908b5b"
+    } ],
+    "uid" : "b4331641b1733782112d4c972c6a9204"
+  } ]
+}
